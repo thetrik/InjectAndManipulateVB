@@ -88,7 +88,8 @@ Sub Main()
     
     ' // Draw line on picturebox
     frmMain.Controls("picTest").Line (0, 0)-Step(100, 50), vbGreen, BF
-    
+    frmMain.Caption = "Test"
+
     UninitializeInjectLibrary
     
 End Sub
